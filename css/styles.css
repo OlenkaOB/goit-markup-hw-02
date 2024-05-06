@@ -3,8 +3,8 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.nav .logo .accent:focus,
-.nav .logo .accent:hover {
+.nav .accent:focus,
+.nav .accent:hover {
     color: #404bbf
 }
 .logo {
