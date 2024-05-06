@@ -28,7 +28,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.address {
+.page-nav .link:hover
+.page-nav .link:focus{
+color: aqua;
+}
+.link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
    font-size: 16px;
@@ -77,4 +81,42 @@ h2 {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+    color: #434455;
+}
+.logo-two {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.accent-two {
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.16667;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #f4f4fd;
+}
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+  letter-spacing: 0.02em;
+   color: #f4f4fd;
+}
+.box {
+    width: 1440px;
+    background: #2e2f42;
 }
