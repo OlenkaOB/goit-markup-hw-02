@@ -36,6 +36,9 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.address {
+    font-style: normal 
+}
 .page-nav .link:hover,
 .page-nav .link:focus{
 color: #404bbf;
@@ -62,9 +65,13 @@ color: #404bbf;
    text-align: center;
    color: #fff;
 }
+.nav .nav-tag:hover,
+.nav .nav-tag:focus {
+    color: #404bbf
+}
 .container .btn:hover,
 .container .btn:focus {
-   color:  #404BBF;
+    background-color: #404BBF
 }
 .btn {
     border-radius: 4px;
@@ -79,9 +86,7 @@ color: #404bbf;
     color: #fff;
     cursor: pointer;
 }
-.description{
-    background-color: #F4F4FD
-}
+
 .caption  {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -89,13 +94,13 @@ color: #404bbf;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center
-    text-transform: capitalize
+    text-align: center;
+    text-transform: capitalize;
 }
 .list {
     background-color: #FFFFFF
 }
-h3 {
+.heading {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
    font-size: 20px;
@@ -104,13 +109,16 @@ h3 {
    color: #2e2f42;
 }
 
-p {
+.heading-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
     color: #434455;
+}
+.box-one {
+    background-color: #F4F4FD;
 }
 .subject {
     font-family: "Roboto", sans-serif;
@@ -119,25 +127,11 @@ p {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center
-    text-transform: capitalize  
+    text-align: center;
+    text-transform: capitalize;
 }
-h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: #2e2f42; 
-}
-p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-    color: #434455; 
-}
+
+
 .logo-two {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
