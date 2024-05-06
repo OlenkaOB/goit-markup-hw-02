@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .logo {
    font-family: "Raleway", sans-serif;
@@ -120,6 +121,5 @@ p {
    color: #f4f4fd;
 }
 .box {
-    width: 1440px;
     background: #2e2f42;
 }
